@@ -13,9 +13,9 @@ header {
   align-items: center;
   background-color: #233554;
   border-radius: 0px 0px 45px 10px;
-  /* width: 100%; */
   padding-left: 5px;
   box-shadow: 2px 5px 10px;
+  max-height: 5em;
 }
 
 nav {
@@ -37,20 +37,18 @@ span {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-top: 5%;
+  padding-top: 5px;
   text-align: center;
   align-items: center;
-  /* margin-top: 20%; */
 }
 
 .tag-line {
-  font-size: 28px;
+  font-size: 1.4em;
   color: #efe6dd;
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.125em;
   /* max-width: 67%; */
 }
 
@@ -68,18 +66,6 @@ h3 {
   border-radius: 20px;
   margin-top: 30px;
 }
-
-/* .Me {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: solid 2px #233554;
-  border-radius: 5px;
-  width: 80%;
-  max-height: 10%;
-  margin-bottom: 30px;
-} */
 
 img {
   width: 200px;
@@ -173,6 +159,6 @@ ul.socials {
 
 @media screen and (min-height: 700px) {
   main {
-    margin-top: 5px;
+    margin-top: 15px;
   }
 }
